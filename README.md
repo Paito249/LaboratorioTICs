@@ -25,8 +25,10 @@ Se eligió dar un sentido específico a este proyecto, de manera que a tráves d
 
 
 La salida del código empleado se ilustra a continuación.
+
 ![Imagen de WhatsApp 2023-05-12 a las 16 47 44](https://github.com/Paito249/LaboratorioTICs/assets/90465211/18d1cad2-d434-429b-b0ab-39dab52f1146)
 
 
 Se considera pendiente:
 *Terminar la conexión del servidor y probar que los resultados impresos en este correspondan a lo solicitado.
+*Calibrar el sensor, para lo cual se hará uso de un termómetro higrómetro ambiental.
