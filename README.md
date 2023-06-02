@@ -15,3 +15,18 @@ apreciable en la imagen) que cuenta con 4 pins, pero hay uno que no se usa, y lo
 restantes son equivalentes a los ya mencionados. Así, “data” puede conectarse a 
 cualquier pin de I/O para entregar la información a la RPI.
 Luego la información de procesa con Python usando la librería Adafruit
+
+El circuito resultante se presenta a continuación.
+
+![Imagen de WhatsApp 2023-05-12 a las 16 34 47](https://github.com/Paito249/LaboratorioTICs/assets/90465211/7ce8bd03-8a47-4fdc-9e77-6bae5d3907fa)
+
+
+Se eligió dar un sentido específico a este proyecto, de manera que a tráves de las mediciones realizadas por el sensor se determina si el usuario necesita llevar consigo chaleco o no.
+
+
+La salida del código empleado se ilustra a continuación.
+![Imagen de WhatsApp 2023-05-12 a las 16 47 44](https://github.com/Paito249/LaboratorioTICs/assets/90465211/18d1cad2-d434-429b-b0ab-39dab52f1146)
+
+
+Se considera pendiente:
+*Terminar la conexión del servidor y probar que los resultados impresos en este correspondan a lo solicitado.
