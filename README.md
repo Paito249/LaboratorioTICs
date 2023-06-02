@@ -6,6 +6,7 @@ Este repositorio tiene como objetivo, documentar y resguardar el avance realizad
 
 Descripción del tema.
 Sensor: DHT11 Sensor de Temperatura y Humedad
+
 ![image](https://github.com/Paito249/LaboratorioTICs/assets/90465211/e4b8a410-7198-466e-98e5-aa9a3dd2e03f)
 
 La conexión es bastante directa, pues el sensor tiene solo 3 pins, correspondientes 
