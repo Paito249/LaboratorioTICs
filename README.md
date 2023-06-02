@@ -2,29 +2,29 @@
 
 Integrantes: Giovanni Castiglioni y Paola Silva.
 
-Este repositorio tiene como objetivo, documentar y resguardar el avance realizado por el grupo para el trabajo de Laboratorio de Tecnologías de la información y comunicaciones de la FCFM
+Este repositorio tiene como objetivo, documentar y almacenar el avance realizado por el grupo para el proyecto de EL5207 Laboratorio de Tecnologías de Información y Comunicaciones de la FCFM
 
 Descripción del tema.
 Sensor: DHT11 Sensor de Temperatura y Humedad
 
 ![image](https://github.com/Paito249/LaboratorioTICs/assets/90465211/e4b8a410-7198-466e-98e5-aa9a3dd2e03f)
 
-La conexión es bastante directa, pues el sensor tiene solo 3 pins, correspondientes 
+La conexión queda resulta directamente, pues el sensor cuenta con solo 3 pins correspondientes 
 a 5V, ground y data. Existe una versión del sensor (que no tiene la placa negra 
 apreciable en la imagen) que cuenta con 4 pins, pero hay uno que no se usa, y los 3 
-restantes son equivalentes a los ya mencionados. Así, “data” puede conectarse a 
-cualquier pin de I/O para entregar la información a la RPI.
-Luego la información de procesa con Python usando la librería Adafruit
+restantes son equivalentes a los ya mencionados tras una conexión a través de una resistencia de 4.7kOhms entre los pins Data y VCC. Así, “Data” puede conectarse a cualquier pin de I/O para entregar la información a la RPI.
+restantes son equivalentes a los ya mencionados tras una conexión a través de una resistencia de 4.7kOhms entre los pins Data y VCC. Así, “Data” puede conectarse a 
+Luego la información se procesa mediante código programado Python usando la librería Adafruit dentro de la RPI.
 
 El circuito resultante se presenta a continuación.
 
 ![Imagen de WhatsApp 2023-05-12 a las 16 34 47](https://github.com/Paito249/LaboratorioTICs/assets/90465211/7ce8bd03-8a47-4fdc-9e77-6bae5d3907fa)
 
 
-Se eligió dar un sentido específico a este proyecto, de manera que a tráves de las mediciones realizadas por el sensor se determina si el usuario necesita llevar consigo chaleco o no.
+Se eligió dar un sentido específico a este proyecto, de manera que a través de las mediciones realizadas por el sensor se determina si el usuario necesita llevar consigo chaleco o no, con el objetivo de mostrar la estrecha relación que pueden llegar a tener la vida cotidiana con la simbiosis entre modelos matemáticos de estimación y tecnologías IoT.
 
 
-La salida del código empleado se ilustra a continuación.
+Los resultados obtenidos por medio del código empleado se ilustran a continuación:
 
 ![Imagen de WhatsApp 2023-05-12 a las 16 47 44](https://github.com/Paito249/LaboratorioTICs/assets/90465211/18d1cad2-d434-429b-b0ab-39dab52f1146)
 
