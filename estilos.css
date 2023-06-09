@@ -1,0 +1,38 @@
+
+
+body{font-family:poppins;margin: 0;padding: 0;background: linear-gradient(rgb(56, 56, 198),  lightblue);height: 100vh; background-size: cover;}
+p {font-size: 20px;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Formulario{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    color:aliceblue;
+    box-shadow: 7px 13px 37px #000;
+    }
+
+.control{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 16px 0 16px 0;
+    border: 1px solid lightblue;
+    color: white;
+}
+.Formulario .boton {
+
+    width: 40%;
+    background-color: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: aliceblue;
+    margin: 16px 0;
+    font-size: 16px;
+}

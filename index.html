@@ -1,0 +1,22 @@
+<!DOCTYPE html> <!--Aclaramos que es un documento tipo html--> 
+<html lang="es"> <!--comando padre de la página--> 
+
+<head>
+<meta charset="utf-8">  <!--codificación en español o ingles es utf-8 --> 
+<title> Formulario </title> <!--permite darle el texto a la pestaña en el navegador--> 
+<link rel="stylesheet" href="estilos.css"> 
+<!-- Instanciamos los archivos de PyScript desde su mismo Servidor -->
+<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+    <section class="Formulario">
+        <p> Ingrese la temperatura a la que siente frio:</p>
+        <input class="control" type="text" name="Temperatura frio" id="frio" placeholder="Ingrese valor">
+        <p> Ingrese la temperatura a la que siente calor:</p>
+        <input class="control" type="text" name="Temperatura calor" id="calor" placeholder="Ingrese valor">
+        <input class="boton" type="submit" value="Ingresar">
+    </section>
+</body>
+
+</html>
