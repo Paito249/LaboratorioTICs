@@ -32,3 +32,22 @@ Los resultados obtenidos por medio del código empleado se ilustran a continuaci
 Se considera pendiente:
 *Terminar la conexión del servidor y probar que los resultados impresos en este correspondan a lo solicitado.
 *Calibrar el sensor, para lo cual se hará uso de un termómetro higrómetro ambiental.
+
+
+Se adjunta Figma del diseño del servidor web: https://www.figma.com/proto/hqCxPPQXd284caSbmxza9Y/Untitled?type=design&node-id=1-2&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2
+
+Este diseño fue el implementado a través de los distintos archivos que se listan a continuación:
+
+* index.html
+* estilos.css
+* proyecto_lab_copy.py
+* app.py
+
+Dando como resultado la siguiente pantalla:
+![image](https://github.com/Paito249/LaboratorioTICs/assets/90465211/502caf87-6594-4bf9-8ca2-d8c23fb4fe06)
+
+Donde en los campos se ingresan los valores de frio y calor, como resultado el servidor arroja el mensaje de si debes llevar chaleco o no.
+
+![image](https://github.com/Paito249/LaboratorioTICs/assets/90465211/3515d24b-196d-4ec9-86cf-5fabd6cd6234)
+
+
