@@ -1,0 +1,171 @@
+html, body {
+    height: 100%;
+  }
+header{background:rgba(190, 138, 191, 0.65);height: 80px;background-size: cover;}
+
+body{font-family:poppins;margin: 0;padding: 0; background-size: cover;}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+p {font-size: 20px;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Formulario_contenedor{display: flex; flex-direction: row ; flex-wrap: wrap; justify-content: space-around; align-items: center;
+    margin: 0 100px; }
+.Formulario {width: 35%; padding: 15px; border-radius: 10px; color: black;}
+
+.control{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 16px 0 16px 0;
+    border: 1px solid lightblue;
+    color: black;
+}
+
+.Formulario_contenedor button {
+    background-color: #BE8ABF;
+    border: none;
+    padding: 12px;
+    color: white;
+    width: 166px;
+    height: 56px;
+    font-size: 16px;
+    border-radius: 16px;
+}
+.Formulario_titulo{
+    padding-left: 70px;
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+/* HEADER*/
+.colored-word {
+    background-image: linear-gradient(blue 0%, blue 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+.banda p{/* WEATHERWISE */
+    position: absolute;
+    width: 264px;
+    height: 44px;
+    left: 76px;
+    top: 18px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+
+/* Contacto*/
+.colored-word-2 {
+    background-image: linear-gradient(#CB24BA 0%, #CB24BA 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+
+  
+.Contacto_contenedor { 
+    position: static;
+    bottom: 10px;  
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: 100px;
+    padding-bottom: 75px;
+    gap:20px;
+}
+
+.Contacto_Logo p{/* GPWISE */
+    width: 138px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+
+.Contacto { /* icono+texto de contacto*/
+    display: flex;
+    gap: 10px;
+    padding: 4px;
+}
+.Contacto p{font-size: 15px;}
+
+.Contacto_2 { /* Titulo contacto*/
+    width: 183px;
+    height: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.ubicacion {width: 400px;}
+
+.Contacto_contenedor hr{
+    width: 100px;
+    height: 0px;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+
+
+
+/*Respuestaaaa*/
+
+    .icono_pequeño{
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 48
+    }
+    .icono_grande {
+        font-size: 100px;
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+    }
+
+    .Respuesta {display: flex;
+    flex-direction: row;
+    }
+
+    .mediciones {gap: 40px;}
+    .mediciones p {font-size: 40px; display: flex; align-items:center;}
+    .probabilidad p{font-size:30px;}
+    .mensaje p{
+        font-size: 50px;
+        color: #CB24BA;
+        text-align: center;
+    }   
+    .Respuesta_contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        border: 1px solid #CB24BA;
+        border-radius: 16px;
+        width: 800px;
+        align-items: center;
+        margin: 0 auto;}
+
+    #Oculto {display: none;}
